@@ -34,7 +34,7 @@ main > section button {
     font-size: 15px;
     font-weight: 500;
     letter-spacing: 1px;
-    line-height: 20px;
+    line-height: 15px;
     padding: 5px 14px;
     text-transform: uppercase;
 }
@@ -42,6 +42,5 @@ main > section button {
 #detalhes-container {
     font-weight: bold;
     list-style-type: none;
-    height: 30px;
     width: 90%;
 }
