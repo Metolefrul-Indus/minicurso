@@ -19,13 +19,15 @@ main {
     position:relative;
 }
 
-main > section img {
+
+
+main > #section1 img {
     height: 300px;
     margin: 15px 0;
     width: 225px;
 }
 
-main > section button {
+main > #section1 button {
     background-color: #005bd3;
     border: none;
     border-radius: 2px;
@@ -37,6 +39,12 @@ main > section button {
     line-height: 13px;
     padding: 5px 5px;
     text-transform: uppercase;
+}
+
+main > #section2 #imagem2 {
+    height: 300px;
+    margin: 0px 0;
+    width: 225px;
 }
 
 #detalhes-container {
@@ -52,5 +60,20 @@ main > section button {
 
 
 #detalhes-container > li p {
+    color: white;
+}
+
+#detalhes-container2 {
+    font-weight: bold;
+    list-style-type: none;
+    width: 90%;
+}
+
+#detalhes-container2 > li {
+    align-items: baseline;
+    display: flex;
+}
+
+#detalhes-container2 > li p {
     color: white;
 }
