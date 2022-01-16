@@ -44,6 +44,12 @@ main > #section1 button {
 main > #section2 #imagem2 {
     height: 300px;
     margin: 0px 0;
+    width: 300px;
+}
+
+main > #section3 #imagem3 {
+    height: 300px;
+    margin: 0px 0;
     width: 225px;
 }
 
@@ -75,5 +81,20 @@ main > #section2 #imagem2 {
 }
 
 #detalhes-container2 > li p {
+    color: white;
+}
+
+#detalhes-container3 {
+    font-weight: bold;
+    list-style-type: none;
+    width: 90%;
+}
+
+#detalhes-container3 > li {
+    align-items: baseline;
+    display: flex;
+}
+
+#detalhes-container3 > li p {
     color: white;
 }

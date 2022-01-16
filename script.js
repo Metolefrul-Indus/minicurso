@@ -1,12 +1,16 @@
 const imagem = document .querySelector('img');
 const imagem2 = document .querySelector('#imagem2');
+const imagem3 = document .querySelector('#imagem3');
 const botao = document .querySelector('button');
 const nomeDoPersonagem = document .querySelector('#nome');
 const nomeDoPersonagem2 = document .querySelector('#nome2');
+const nomeDoPersonagem3 = document .querySelector('#nome3');
 const especie = document .querySelector('#especie');
 const especie2 = document .querySelector('#especie2');
+const especie3 = document .querySelector('#especie3');
 const condicao = document .querySelector('#status');
 const condicao2 = document .querySelector('#status2');
+const condicao3 = document .querySelector('#status3');
 
 gerarValorAleatorio = () => {
     return Math.floor(Math.random() * 671);
@@ -46,6 +50,8 @@ pegarPersonagem2 = () =>{
     });
 }
 
-botao.addEventListener('click','pegarPersonagem');
+botao.addEventListener('click',pegarPersonagem);
 
-botao.addEventListener('click','pegarPersonagem2');
+botao.addEventListener('click',pegarPersonagem2);
+
+botao.addEventListener('click',pegarPersonagem3);
