@@ -44,12 +44,12 @@ main > #section1 button {
 main > #section2 #imagem2 {
     height: 300px;
     margin: 0px 0;
-    width: 300px;
+    width: 255px;
 }
 
 main > #section3 #imagem3 {
     height: 300px;
-    margin: 0px 0;
+    margin: -15px 0;
     width: 225px;
 }
 
